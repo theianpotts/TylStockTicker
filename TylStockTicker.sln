@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TylStockTicker", "TylStockTicker\TylStockTicker.csproj", "{D3881C50-F797-4493-AFDA-95F0522BCA38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TylStockTicker", "TylStockTicker\TylStockTicker.csproj", "{D3881C50-F797-4493-AFDA-95F0522BCA38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{476B1CF3-50E6-4843-9741-35561E8DBB2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D3881C50-F797-4493-AFDA-95F0522BCA38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3881C50-F797-4493-AFDA-95F0522BCA38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3881C50-F797-4493-AFDA-95F0522BCA38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{476B1CF3-50E6-4843-9741-35561E8DBB2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{476B1CF3-50E6-4843-9741-35561E8DBB2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{476B1CF3-50E6-4843-9741-35561E8DBB2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{476B1CF3-50E6-4843-9741-35561E8DBB2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
