@@ -24,7 +24,7 @@ namespace TylStockTicker.Controllers
         /// </summary>
         /// <param name="stockTransaction"></param>
         /// <returns></returns>
-        [HttpPost]
+        [HttpPost("AddTransaction")]
         public async Task<ActionResult> AddTransaction(StockTransaction stockTransaction)
         {
             if (string.IsNullOrEmpty(stockTransaction.StockTickerSymbol) ||
@@ -46,7 +46,7 @@ namespace TylStockTicker.Controllers
         /// </summary>
         /// <param name="stockTickerId"></param>
         /// <returns></returns>
-        [HttpGet]
+        [HttpGet("GetStockValue")]
         public async Task<ActionResult> GetStockValue(string stockTickerSymbol)
         {
             if (string.IsNullOrEmpty(stockTickerSymbol))
@@ -67,7 +67,7 @@ namespace TylStockTicker.Controllers
         /// Get the values of all stock tickers
         /// </summary>
         /// <returns></returns>
-        [HttpGet]
+        [HttpGet("GetAllStockValues")]
         public ActionResult GetAllStockValues()
         {
             // Call service and return result
@@ -82,7 +82,7 @@ namespace TylStockTicker.Controllers
         /// Get the values of the given stock tickers
         /// </summary>
         /// <returns></returns>
-        [HttpGet]
+        [HttpGet("GetStockValues")]
         public ActionResult GetStockValues(string[] stockTickerSymbols)
         {
             // Call service and return result
